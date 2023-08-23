@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: aqua;
+    border: none;
+    color: purple;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form {
+    margin: 50px auto;
+    width: 300px;
+    height: 400px;
+    background-color: antiquewhite;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 5px;
+
+
+}
+
+.toggle {
+    display: none;
+}
+
+.inputs {
+    padding-top: 40px;
+}
+
+form label {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 130px;
+    padding: 5px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 18px;
+    /* margin-bottom: 10px; */
+    display: block;
+}
+
+input[type="submit"] {
+    width: 90px;
+    height: 30px;
+    /* border: none; */
+    border-radius: 6px;
+    background-color: beige;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: rgb(103, 101, 101);
+    color: white;
+}
+
+.book-card {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.book-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    /* padding-bottom: 20px; */
+}
+
+.book-title {
+    margin: 0;
+    font-size: 22px;
+}
+
+.book-author {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.book-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.book-pages {
+    margin: 0;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.book-status {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    color: #333;
+}
